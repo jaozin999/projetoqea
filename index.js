@@ -91,6 +91,6 @@ app.post('/resposta', (req, res) => {
     })
 })
 
-app.listen(3333, () =>{
+app.listen(process.env.PORT, () =>{
     console.log("Servidor rodando")
 })
